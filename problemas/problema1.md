@@ -49,7 +49,7 @@ INICIO
     si distancia < 400 ENTONCES
         precio = si semana entre lunes y jueves entoces 79900 
     si no
-        precio = si dia_semana entre lunes y jueves ENTONCES 156900 
+        precio = si dia_semana entre lunes y jueves entoces 156900 
         si no 213000
 
     Leer preferencia 
@@ -59,7 +59,8 @@ INICIO
      si no A SI preferencia == ventana
         si no B
 
-    
+    numero_asiento = número aleatorio entre 1 y 29
+    asiento_asignado = numero_asiento + letra_asiento
 
     Mostrar nombre_completo, origen, destino, dia_semana, dia_mes, precio, asiento_asignado
 
