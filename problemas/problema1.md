@@ -46,7 +46,7 @@ INICIO
         distancia = 657
 
     #Calcular precio
-    si distancia < 400 ENTONCES
+    si distancia < 400 entonces
         precio = si semana entre lunes y jueves entoces 79900 
     si no
         precio = si dia_semana entre lunes y jueves entoces 156900 
